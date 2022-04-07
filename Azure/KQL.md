@@ -8,6 +8,15 @@ ADFActivityRun
 | project PipelineName, RowsRead = AllProperties["rowsRead"]
 ```
 
+Failed pipeline count
+```
+ADFPipelineRun
+| where Status =~ "Failed"
+| where TimeGenerated > ago(7d)
+| summarize Count = count() by PipelineName
+| render piechart  
+```
+
 # #PowerBI Kusto query
 ```
 = Kusto.Contents("https://ade.loganalytics.io/subscriptions/00000000-0000-0000-0000-666cfa995c66/resourcegroups/rg-ms-monitor/providers/microsoft.operationalinsights/workspaces/log-ms-cosmosdb-001", "log-ms-cosmosdb-001", "AzureMetrics", [MaxRows=null, MaxSize=null, NoTruncate=null, AdditionalSetStatements=null])
