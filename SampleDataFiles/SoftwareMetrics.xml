@@ -1,0 +1,110 @@
+﻿<Root>
+  <Target Name="Process.csproj">
+    <Assembly Name="Process.ECare, Version=0.0.1.0, Culture=neutral, PublicKeyToken=null">
+      <Month Name ="Jan">
+        <Matrix
+          Week="Week1"
+          MaintainabilityIndex ="26"
+          CyclomaticComplexity ="5252"
+          ClassCoupling ="556"
+          DepthOfInheritance ="5"
+          SourceLines = "24585"
+          ExecutableLines = "7582"
+        />
+        <Matrix
+            Week="Week2"
+            MaintainabilityIndex ="43"
+            CyclomaticComplexity ="4584"
+            ClassCoupling ="556"
+            DepthOfInheritance ="8"
+            SourceLines = '24555'
+            ExecutableLines = "5625"
+        />
+      </Month>
+      <Month Name ="Feb">
+        <Matrix
+          Week="Week1"
+          MaintainabilityIndex ="26"
+          CyclomaticComplexity ="5252"
+          ClassCoupling ="556"
+          DepthOfInheritance ="5"
+          SourceLines = "24585"
+          ExecutableLines = "7582"
+        />
+        <Matrix
+            Week="Week2"
+            MaintainabilityIndex ="43"
+            CyclomaticComplexity ="4584"
+            ClassCoupling ="556"
+            DepthOfInheritance ="8"
+            SourceLines = '24555'
+            ExecutableLines = "5625"
+        />
+      </Month>
+      <Month Name ="Mar">
+        <Matrix
+          Week="Week1"
+          MaintainabilityIndex ="26"
+          CyclomaticComplexity ="5252"
+          ClassCoupling ="556"
+          DepthOfInheritance ="5"
+          SourceLines = "24585"
+          ExecutableLines = "7582"
+        />
+        <Matrix
+            Week="Week2"
+            MaintainabilityIndex ="43"
+            CyclomaticComplexity ="4584"
+            ClassCoupling ="556"
+            DepthOfInheritance ="8"
+            SourceLines = '24555'
+            ExecutableLines = "5625"
+        />
+      </Month>
+    </Assembly>
+  </Target>
+  <Target Name="Project2.csproj">
+    <Assembly Name="Process.ECare, Version=0.0.1.0, Culture=neutral, PublicKeyToken=null">
+      <Month Name ="Mar">
+        <Matrix
+          Week="Week1"
+          MaintainabilityIndex ="26"
+          CyclomaticComplexity ="5252"
+          ClassCoupling ="556"
+          DepthOfInheritance ="5"
+          SourceLines = "24585"
+          ExecutableLines = "7582"
+        />
+        <Matrix
+            Week="Week2"
+            MaintainabilityIndex ="43"
+            CyclomaticComplexity ="4584"
+            ClassCoupling ="556"
+            DepthOfInheritance ="8"
+            SourceLines = '24555'
+            ExecutableLines = "5625"
+        />
+      </Month>
+      <Month Name ="April">
+        <Matrix
+          Week="Week1"
+          MaintainabilityIndex ="26"
+          CyclomaticComplexity ="5252"
+          ClassCoupling ="556"
+          DepthOfInheritance ="5"
+          SourceLines = "24585"
+          ExecutableLines = "7582"
+        />
+        <Matrix
+            Week="Week2"
+            MaintainabilityIndex ="43"
+            CyclomaticComplexity ="4584"
+            ClassCoupling ="556"
+            DepthOfInheritance ="8"
+            SourceLines = '24555'
+            ExecutableLines = "5625"
+        />
+      </Month>
+    </Assembly>
+  </Target>
+</Root>
