@@ -1,0 +1,259 @@
+[
+   {
+      "ID":1,
+      "User_First_Name":"Jhon",
+      "User_Last_Name":"Lee",
+      "Active":"Yes       ",
+      "Addresses":[
+         {
+            "street":"23 West 50 Street",
+            "street2":"Apt 4",
+            "city":"New York",
+            "STATE":"NY"
+         },
+         {
+            "street":"123 Main Street",
+            "city":"Brooklyn ",
+            "STATE":"NY"
+         }
+      ],
+      "Books":[
+         {
+            "Book_Title":"First CosmosDB Book",
+            "Author_FirstName":"Jhon",
+            "Author_LastName":"Lee",
+            "Book_Published_date":"2017-09-13T21:32:35.230",
+            "Book_isbn":"2323232     ",
+            "Users_Book_Checkouts":[
+               {
+                  "Checkout_Date":"2020-03-25T02:20:35.233",
+                  "Returned_Date":"2020-04-06T23:56:35.233",
+                  "Users_Book_Review":[
+                     {
+                        "Evaluation_Date":"2020-04-03T19:08:35.230",
+                        "Rating_Number":3,
+                        "Review_Text":"Not bad for the first book in the Series"
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "Book_Title":"Fifth ComosDB Book",
+            "Author_FirstName":"Jannette",
+            "Author_LastName":"Lawrence",
+            "Book_Published_date":"2018-09-18T21:32:35.230",
+            "Book_isbn":"9471274     ",
+            "Users_Book_Checkouts":[
+               {
+                  "Checkout_Date":"2020-03-24T02:20:35.233",
+                  "Returned_Date":"2020-04-12T02:20:35.233",
+                  "Users_Book_Review":[
+                     {
+                        "Evaluation_Date":"2020-03-29T04:44:35.230",
+                        "Rating_Number":5,
+                        "Review_Text":"Best Cosmos DB Book EVER!!!"
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "Book_Title":"Seven ComosDB Book",
+            "Author_FirstName":"William",
+            "Author_LastName":"Santos",
+            "Book_Published_date":"2019-04-15T09:32:35.230",
+            "Book_isbn":"1227514     ",
+            "Users_Book_Checkouts":[
+               {
+                  "Checkout_Date":"2020-03-22T02:20:35.233"
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "ID":2,
+      "User_First_Name":"Mayer",
+      "User_Last_Name":"Robert",
+      "Active":"NO        ",
+      "Addresses":[
+         {
+            "street":"10 East 21 Street",
+            "street2":"Apt 1010",
+            "city":"Brooklyn ",
+            "STATE":"NY"
+         }
+      ],
+      "Books":[
+         {
+            "Book_Title":"First CosmosDB Book",
+            "Author_FirstName":"Jhon",
+            "Author_LastName":"Lee",
+            "Book_Published_date":"2017-09-13T21:32:35.230",
+            "Book_isbn":"2323232     ",
+            "Users_Book_Checkouts":[
+               {
+                  "Checkout_Date":"2020-03-21T02:20:35.233",
+                  "Returned_Date":"2020-07-12T19:08:35.233",
+                  "Users_Book_Review":[
+                     {
+                        "Evaluation_Date":"2020-05-30T09:32:35.230",
+                        "Rating_Number":4,
+                        "Review_Text":"Good for novices"
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "Book_Title":"Second CosmosDB Book",
+            "Author_FirstName":"Alice",
+            "Author_LastName":"Robert",
+            "Book_Published_date":"2017-12-11T14:20:35.230",
+            "Book_isbn":"234323      ",
+            "Users_Book_Checkouts":[
+               {
+                  "Checkout_Date":"2020-04-04T02:20:35.233",
+                  "Returned_Date":"2020-06-13T07:08:35.233",
+                  "Users_Book_Review":[
+                     {
+                        "Evaluation_Date":"2020-05-04T09:32:35.230",
+                        "Rating_Number":1,
+                        "Review_Text":"Book did not cover Change Feed... Booo!!!"
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "Book_Title":"Fourth ComosDB Book",
+            "Author_FirstName":"Michael",
+            "Author_LastName":"Lee",
+            "Book_Published_date":"2018-06-29T09:32:35.230",
+            "Book_isbn":"121242      ",
+            "Users_Book_Checkouts":[
+               {
+                  "Checkout_Date":"2020-05-03T02:20:35.233",
+                  "Returned_Date":"2020-08-10T11:56:35.233",
+                  "Users_Book_Review":[
+                     {
+                        "Evaluation_Date":"2020-06-24T11:56:35.230",
+                        "Rating_Number":5,
+                        "Review_Text":"Excellent examples, taught me a lot"
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "Book_Title":"Sixth ComosDB Book",
+            "Author_FirstName":"Charles",
+            "Author_LastName":"Garcia",
+            "Book_Published_date":"2019-02-03T07:08:35.230",
+            "Book_isbn":"6351849     ",
+            "Users_Book_Checkouts":[
+               {
+                  "Checkout_Date":"2020-03-25T02:20:35.233",
+                  "Users_Book_Review":[
+                     {
+                        "Evaluation_Date":"2020-04-25T09:32:35.230",
+                        "Rating_Number":3,
+                        "Review_Text":"Could have used more demos"
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "Book_Title":"Eight ComosDB Book",
+            "Author_FirstName":"Lisa",
+            "Author_LastName":"Rossi",
+            "Book_Published_date":"2019-12-03T21:32:35.230",
+            "Book_isbn":"89365782    ",
+            "Users_Book_Checkouts":[
+               {
+                  "Checkout_Date":"2020-03-23T02:20:35.233"
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "ID":3,
+      "User_First_Name":"Abue",
+      "User_Last_Name":"Wali",
+      "Active":"Yes       ",
+      "Addresses":[
+         {
+            "street":"12 East 23 Street",
+            "street2":"Floor 3",
+            "city":"New York",
+            "STATE":"NY"
+         }
+      ],
+      "Books":[
+         {
+            "Book_Title":"Third ComosDB Book",
+            "Author_FirstName":"Joe",
+            "Author_LastName":"Pesci",
+            "Book_Published_date":"2018-02-21T09:32:35.230",
+            "Book_isbn":"434321      ",
+            "Users_Book_Checkouts":[
+               {
+                  "Checkout_Date":"2020-03-28T02:20:35.233"
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "ID":4,
+      "User_First_Name":"Bill",
+      "User_Last_Name":"West",
+      "Active":"Yes       ",
+      "Addresses":[
+         {
+            "street":"23 West 50 Street",
+            "street2":"Apt 4",
+            "city":"New York",
+            "STATE":"NY"
+         }
+      ]
+   },
+   {
+      "ID":5,
+      "User_First_Name":"Joe",
+      "User_Last_Name":"Rog",
+      "Active":"Yes       ",
+      "Addresses":[
+         {
+            "street":"21 West 43 Street",
+            "city":"Brooklyn ",
+            "STATE":"NY"
+         }
+      ],
+      "Books":[
+         {
+            "Book_Title":"Eight ComosDB Book",
+            "Author_FirstName":"Lisa",
+            "Author_LastName":"Rossi",
+            "Book_Published_date":"2019-12-03T21:32:35.230",
+            "Book_isbn":"89365782    ",
+            "Users_Book_Checkouts":[
+               {
+                  "Checkout_Date":"2020-04-11T16:44:35.233",
+                  "Returned_Date":"2020-05-05T14:20:35.233",
+                  "Users_Book_Review":[
+                     {
+                        "Evaluation_Date":"2020-04-23T21:32:35.230",
+                        "Rating_Number":5,
+                        "Review_Text":"Book covered C#, Python and Java APIs, loved this book."
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+]
