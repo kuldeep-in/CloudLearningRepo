@@ -61,12 +61,15 @@ CosmosClient cosmosClient = new CosmosClient(
 
 ## SQL api query
 ```
-Get Records count
 SELECT VALUE COUNT(1) FROM c
 
 SELECT * from f where f.id = "AndersenFamily"
 
-SELECT {"Name":f.id, "City":f.address.city, "State":f.address.state
+SELECT 
+{
+    "Name":f.id, 
+    "City":f.address.city, 
+    "State":f.address.state
 } AS Family 
 FROM Families f
 
@@ -76,7 +79,11 @@ select * from Families.address.zip
 
 SELECT * FROM Families.children[1]
 
-SELECT f.id AS Name,{ "state": f.address.state, "city": f.address.city } AS Address, f.address.zip FROM Families f
+SELECT 
+f.id AS Name,
+{ "state": f.address.state, "city": f.address.city } AS Address, 
+f.address.zip 
+FROM Families f
 
 SELECT f.id, f.address.state = "CA" AS IsFromCAState FROM Families f
 
