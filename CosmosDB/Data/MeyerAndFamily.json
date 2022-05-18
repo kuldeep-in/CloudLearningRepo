@@ -1,0 +1,26 @@
+{
+  "id": "MeyerAndFamily",
+  "lastName": "Meyer",
+  "parents": [
+    {
+      "firstName": "April",
+      "pets": [
+        {
+          "givenName": "Wheeler"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "firstName": "Chris",
+      "gender": "male"
+    }
+  ],
+  "address": {
+    "state": "WA",
+    "county": "King",
+    "city": "Kirkland",
+    "zip": 98033
+  }
+}
