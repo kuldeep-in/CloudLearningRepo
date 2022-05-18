@@ -1,0 +1,31 @@
+{
+  "id": "AndersenFamily",
+  "lastName": "Andersen",
+  "parents": [
+    {
+      "firstName": "Thomas"
+    },
+    {
+      "firstName": "Mary Kay"
+    }
+  ],
+  "children": [
+    {
+      "firstName": "Henriette Thaulow",
+      "gender": "female",
+      "grade": 5,
+      "pets": [
+        {
+          "givenName": "Fluffy"
+        }
+      ]
+    }
+  ],
+  "address": {
+    "state": "CA",
+    "county": "Orange",
+    "city": "Los Angeles",
+    "zip": 90210
+  },
+  "isRegistered": true
+}
