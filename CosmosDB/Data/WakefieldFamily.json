@@ -1,0 +1,41 @@
+{
+  "id": "WakefieldFamily",
+  "parents": [
+    {
+      "familyName": "Wakefield",
+      "givenName": "Robin"
+    },
+    {
+      "familyName": "Miller",
+      "givenName": "Ben"
+    }
+  ],
+  "children": [
+    {
+      "familyName": "Merriam",
+      "givenName": "Jesse",
+      "gender": "female",
+      "grade": 1,
+      "pets": [
+        {
+          "givenName": "Goofy"
+        },
+        {
+          "givenName": "Shadow"
+        }
+      ]
+    },
+    {
+      "familyName": "Miller",
+      "givenName": "Lisa",
+      "gender": "female",
+      "grade": 8
+    }
+  ],
+  "address": {
+    "state": "FL",
+    "city": "Miami",
+    "zip": 33011
+  },
+  "isRegistered": false
+}
