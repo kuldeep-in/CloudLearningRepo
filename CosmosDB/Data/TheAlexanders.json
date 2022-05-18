@@ -1,0 +1,22 @@
+{
+  "id": "TheAlexanders",
+  "familyName": "Alexander",
+  "parents": [
+    {
+      "givenName": "David"
+    }
+  ],
+  "children": [
+    {
+      "givenName": "Michael",
+      "gender": "male",
+      "grade": 6
+    }
+  ],
+  "address": {
+    "state": "WA",
+    "county": "King",
+    "city": "Kirkland",
+    "zip": 98033
+  }
+}
