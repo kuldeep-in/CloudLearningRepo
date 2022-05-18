@@ -1,0 +1,40 @@
+{
+  "id": "TheSmiths",
+  "familyName": "Smith",
+  "parents": [
+    {
+      "givenName": "Tony"
+    },
+    {
+      "givenName": "Denise",
+      "pets": [
+        {
+          "givenName": "Chewy"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "givenName": "Jeff",
+      "gender": "male",
+      "grade": 2
+    },
+    {
+      "givenName": "Ben",
+      "gender": "male",
+      "grade": 5
+    },
+    {
+      "givenName": "Samantha",
+      "gender": "female",
+      "grade": 9
+    }
+  ],
+  "address": {
+    "state": "NY",
+    "county": "Bronx",
+    "city": "The Bronx",
+    "zip": 10453
+  }
+}
