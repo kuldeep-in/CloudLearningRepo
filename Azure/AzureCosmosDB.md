@@ -1,6 +1,6 @@
-# Learn Cosmos DB in 2 Days
+# Learn Cosmos DB
 
-### Day 1
+### Developer
 - Architecture overview.
 - Consistency levels
     - Consistence, availability and performance tradeoffs.
@@ -19,7 +19,7 @@
     - Set up change feeds
     - [Demo]
 
-### Day 2 
+### Administrator
 - Performance Monitoring.
     - Azure monitor
     - Setup cosmos metrics in Azure monitor
