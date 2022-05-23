@@ -1,41 +1,6 @@
 # Learn Cosmos DB
 
-### Developer
-- Architecture overview.
-- Consistency levels
-    - Consistence, availability and performance tradeoffs.
-- How to query using SQL
-    - [Demo]
-    - [Lab]
-- Creation of stored procedures and triggers and UDFs.
-    - [Demo]
-    - [Labs]
-- Partitioning, key choice, horizonal scaling.
-- Data Modeling
-- Pricing
-- Limitations
-- Conflict Resolution
-- Change feeds.
-    - Set up change feeds
-    - [Demo]
-
-### Administrator
-- Performance Monitoring.
-    - Azure monitor
-    - Setup cosmos metrics in Azure monitor
-    - Query tuning
-    - [Demo]
-- Backup and recovery.
-- Migrating data to CosmosDB
-    - Data migration tool to migrate data to CosmosDB
-    - [Demo]
-- Security
-- Database Throughput?
-    - Throughput for database and containers.
-    - Distribution based on partition key
-    - [Demo]
-
-# Learning Resources
+## Learning Resources
 
 - https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-get-started
 - https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-dotnet-application
@@ -222,3 +187,38 @@ AzureMetrics
 | render timechart
 ```
 
+
+### Developer
+- Architecture overview.
+- Consistency levels
+    - Consistence, availability and performance tradeoffs.
+- How to query using SQL
+    - [Demo]
+    - [Lab]
+- Creation of stored procedures and triggers and UDFs.
+    - [Demo]
+    - [Labs]
+- Partitioning, key choice, horizonal scaling.
+- Data Modeling
+- Pricing
+- Limitations
+- Conflict Resolution
+- Change feeds.
+    - Set up change feeds
+    - [Demo]
+
+### Administrator
+- Performance Monitoring.
+    - Azure monitor
+    - Setup cosmos metrics in Azure monitor
+    - Query tuning
+    - [Demo]
+- Backup and recovery.
+- Migrating data to CosmosDB
+    - Data migration tool to migrate data to CosmosDB
+    - [Demo]
+- Security
+- Database Throughput?
+    - Throughput for database and containers.
+    - Distribution based on partition key
+    - [Demo]
