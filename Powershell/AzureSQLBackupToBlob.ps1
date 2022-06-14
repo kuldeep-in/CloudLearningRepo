@@ -4,22 +4,22 @@ param(
 	[String] $ResourceGroupName = "",
     [parameter(Mandatory=$true)]
 	[String] $DatabaseServerName = "",
-    #[parameter(Mandatory=$true)]
-    #[String]$DatabaseAdminUsername,
-	#[parameter(Mandatory=$true)]
-    #[String]$DatabaseAdminPassword,
-	#[parameter(Mandatory=$true)]
-    #[String]$DatabaseNames,
-    #[parameter(Mandatory=$true)]
-    #[String]$StorageAccountName,
-    #[parameter(Mandatory=$true)]
-    #[String]$BlobStorageEndpoint,
-    #[parameter(Mandatory=$true)]
-    #[String]$StorageKey,
-	#[parameter(Mandatory=$true)]
-    #[string]$BlobContainerName,
-	#[parameter(Mandatory=$true)]
-    #[Int32]$RetentionDays
+    [parameter(Mandatory=$true)]
+    [String]$DatabaseAdminUsername,
+	[parameter(Mandatory=$true)]
+    [String]$DatabaseAdminPassword,
+	[parameter(Mandatory=$true)]
+    [String]$DatabaseNames,
+    [parameter(Mandatory=$true)]
+    [String]$StorageAccountName,
+    [parameter(Mandatory=$true)]
+    [String]$BlobStorageEndpoint,
+    [parameter(Mandatory=$true)]
+    [String]$StorageKey,
+	[parameter(Mandatory=$true)]
+    [string]$BlobContainerName,
+	[parameter(Mandatory=$true)]
+    [Int32]$RetentionDays
 )
 
 $ResourceGroupName = ""
