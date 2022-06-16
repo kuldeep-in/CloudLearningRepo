@@ -3,10 +3,31 @@
 ```
   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
+
 ## install azure module:
 ```
  Install-Module -Name Az.Resources -AllowClobber -Scope CurrentUser
  Install-Module -Name Az -AllowClobber -Scope CurrentUser
+```
+
+## Update all powershell modules for Azure Automation Account
+- https://docs.microsoft.com/en-us/azure/automation/automation-update-azure-modules
+
+
+## Get Azure Powershell Module version
+```
+$name='Azure'
+
+if(Get-Module -ListAvailable | 
+    Where-Object { $_.name -eq $name }) 
+{ 
+    (Get-Module -ListAvailable | Where-Object{ $_.Name -eq $name }) | 
+    Select Version, Name, Author, PowerShellVersion  | Format-List; 
+} 
+else 
+{ 
+    "The Azure PowerShell module is not installed."
+}
 ```
 
 ## Sign In
@@ -76,25 +97,12 @@ foreach ($ResourceGroup in $ResourceGroups)
 } 
 ```
 
-## Get Azure Powershell Module version
+## Read webpage in loop
 ```
-$name='Azure'
-
-if(Get-Module -ListAvailable | 
-    Where-Object { $_.name -eq $name }) 
-{ 
-    (Get-Module -ListAvailable | Where-Object{ $_.Name -eq $name }) | 
-    Select Version, Name, Author, PowerShellVersion  | Format-List; 
-} 
-else 
-{ 
-    "The Azure PowerShell module is not installed."
-}
+    For ($i=0; $i -le 800; $i++) {
+    $WebResponse9 = Invoke-WebRequest "https://app-ms-dataportal.azurewebsites.net/SQL/Edit/137676763" -UseBasicParsing
+    }
 ```
-
-## Update all powershell modules for Azure Automation Account
-- https://docs.microsoft.com/en-us/azure/automation/automation-update-azure-modules
-
 
 ## Azure Data Factory (ADF)
 ```
